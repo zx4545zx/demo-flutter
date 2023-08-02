@@ -40,6 +40,7 @@ class _ListBillWidgetState extends State<ListBillWidget> {
             child: ListTile(
               onTap: () => targetBill(index),
               title: Column(
+                
                 children: [
                   // header
                   Row(
